@@ -1,0 +1,127 @@
+/*Colors and fonts */
+body {
+	background-color: rgb(230,230,230);
+	color:#CC2B52
+font-family: Helvetica
+font-size:17px
+}
+h1,h2,h3 {
+	font-family: Courier;
+} 
+h1{
+	color: blueviolet;
+	font-size: 32px;
+}
+h2{
+	color:rgb(100,100, 100 / 1.0);
+	font-size: 24px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color:red;
+}
+a:hover{
+  color:yellow;
+}
+	color:green;
+	font-family: Helvetica;
+    font-weight: 100;
+    letter-spacing:10px ;
+    font-size: 60px;
+} 
+
+
+/*Custom design with class*/
+
+.containze{
+	width:700px;
+	margin:400px auto;
+}
+
+/* Profile picture: make it round */
+#profile-pic {
+    img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+
+    width: 150px;  /* Adjust size if needed */
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+.}
+
+/* Make the introduction link look like a button */
+#introduction .btn {
+    display: inline-block;
+    background-color: #007BFF; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#introduction .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Make the social networks list horizontal */
+#social-networks {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#social-networks li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#social-networks a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+#social-networks a:hover {
+    color: #007BFF; /* Link hover color */
+}
+
+/* Spacing adjustments for paragraph and button */
+#introduction {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#introduction a.btn {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
